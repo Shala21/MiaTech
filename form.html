@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+</head>
+<body>
+    <head>
+        <h1>This is my Form wit html and a little of CSS</h1>
+    </head>
+    <nav class="nav__menu">
+        <div class="nav__menu-uno">
+            <a href="">Link Uno</a>
+        </div>
+        <div class="nav__menu-due">
+            <a href="">Link Due</a>
+        </div>
+        <div class="nav__menu-tre">
+            <a href="">Link Tre</a>
+        </div>
+        <div class="nav__menu-quattro">
+            <a href="">Link Quattro</a>
+        </div>
+    </nav>
+    <main class="container">
+        <section>
+            <article class="container__item">
+                <div class="container__text-top">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="image__cane">
+                    <img src="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/3472f252-09b0-4656-8061-42bf3ee63420/nel-parco-in-una-giornata-soleggiata.webp?w=3840&q=75&auto=format" alt="cane" />
+                </div>
+            </article>
+        </section>
+        <section class="container__text">
+            <div class="container__text-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+        <section class="container__form">
+            <form action="" method="get">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required> <br><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to the newsletter</label><br><br>
+                <p>Gender:</p>
+                <input type="radio" name="male" id="male" value="male" required>
+                <label for="male">Male</label><br><br>
+                <input type="radio" name="female" id="female" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="massage">Message</label><br>
+                <textarea name="message" id="message" rows="4" cols="40" placeholder="Write your message here..." required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>All right reserved 2025</p>
+    </footer>
+</body>
+</html>
