@@ -43,6 +43,23 @@ h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.lorem {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: green;
+}
+
+.evidenziato {
+    color: orange;
+}
+
+#special {
+  color: red;
+}
+
 .container__paragraph {
     border: 2px solid black;
     padding: 16px;
