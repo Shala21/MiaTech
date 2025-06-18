@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.container__title-title5{
+    text-transform: uppercase;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: lightseagreen;
+}
+
+h3 {
+    color: green;
+}
+
+h4 {
+    color: rgb(1, 90, 1);
+}
+
+h5{
+    color: aquamarine;
+}
+
+h6 {
+    color: black;
+}
+
+#title5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    color: green;
+}
+
+.evidenziato {
+    color: orange;
+}
+
+#special {
+  color: red;
+}
+
+.container__paragraph {
+    border: 2px solid black;
+    padding: 16px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 6px 20px rgba( 0, 0, 0, 0.1);
+}
+
+.container__paragraph-text,
+.container__paragraph-rgb,
+.container__paragraph-hex,
+.container__paragraph-rgba,
+.container__paragraph-colorname {
+    font-size: 30px;
+}
+
+.container__paragraph-text {
+    text-align: right;
+    color: red;
+    background-color: white;
+}
+
+.rgb {
+    background-color: rgb(255, 0, 0);
+}
+
+.hex {
+    background-color: #FF000066;
+}
+
+.rgba {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+.colorname {
+    background-color: pink; 
+}
+
+.container__item {
+  display: flex;
+  justify-content: center; 
+  padding: 1rem;
+}
+
+.container__item-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container__item-list-child a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  display: block;
+}
+
+.container__item-list-child a:hover {
+  background-color: rgb(116, 112, 112);
+  border-radius: 5px;
+}
+
+.red a {
+  color: red;
+}
+
+.green a {
+  color: green;
+}
+
+.blue a {
+  color: blue;
+}
+
+.grassetto a {
+  font-weight: bold;
+}
+
+.corsivo a {
+  font-style: italic;
+}
+
+.container__item-list-last-child::after {
+  content: ' 5';
+  font-style: italic;
+  color: gray;
+}
