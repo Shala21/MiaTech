@@ -78,9 +78,9 @@ a:hover {
 }
 
 img {
-    width: 70%; 
-    height: auto;
-    border-radius: 8px;
+  width: 70%; 
+  height: auto;
+  border-radius: 8px;
 }
 
 .container_teaxt-float2 {
@@ -96,6 +96,21 @@ img {
   display: table;
   clear: both;
 }
+
+.columns {
+  display: flex;
+  gap: 16px;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.columns p {
+  flex: 1;
+  min-width: 200px; 
+  margin: 0;
+}
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
