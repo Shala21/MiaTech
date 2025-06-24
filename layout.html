@@ -9,46 +9,55 @@
 </head>
 <body>
     <!-- Created a layout similar to the original website design -->
-    <div class="wrapper">
-        <div class="container">
-            <div class="header">
-                <h2>Header</h2>
-            </div>
-            <!-- this nav bar has sticky and fixed, check the css-->
-            <div class="navbar">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-            </div>
-            <!-- Created three separate div elements to structure content into 3 columns -->
-            <div class="row">
-                <div class="column side">
+     <header>
+        <div class="header">
+            <h2>Header</h2>
+        </div>
+     </header>
+    <!-- this nav bar has sticky and fixed, check the css-->
+    <nav>
+        <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    </nav>
+    <!-- Created three separate div elements to structure content into 3 columns -->
+    <section>
+        <div class="row">
+            <div class="column side">
                 <h2>Side</h2>
                 <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="column main">
-                    <h2>Main content</h2>
-                    <!-- Image aligned to the right side of paragraph using float -->
-                    <div class="container_teaxt-float">
-                         <div class="image float">
-                        <img src="https://images.theconversation.com/files/625049/original/file-20241010-15-95v3ha.jpg?ixlib=rb-4.1.0&rect=12%2C96%2C2671%2C1335&q=45&auto=format&w=668&h=324&fit=crop" alt="image"/>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="column main">
+                <h2>Main content</h2>
+                <!-- Image aligned to the right side of paragraph using float -->
+                <div class="container_teaxt-float">
+                    <div class="image float">
+                    <img src="https://images.theconversation.com/files/625049/original/file-20241010-15-95v3ha.jpg?ixlib=rb-4.1.0&rect=12%2C96%2C2671%2C1335&q=45&auto=format&w=668&h=324&fit=crop" alt="image"/>
                     </div>
-                    <!--2° floating: paragraph positioned below the previous element-->
-                    <div class="container_teaxt-float2"></div>
-                    <p>This is not the same boring: “Lorem ipsum dolor sit amet,” but just to check my ability :p</p>
-                    <!-- This paragraph is intentionally hidden from view -->
-                    <p class="hidden">orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
-                <div class="column side">
-                    <h2>Side</h2>
-                    <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
+                <!--2° floating: paragraph positioned below the previous element-->
+                <div class="container_teaxt-float2"></div>
+                <p>This is not the same boring: “Lorem ipsum dolor sit amet,” but just to check my ability :p</p>
+                <!-- This paragraph is intentionally hidden from view -->
+                <p class="hidden">orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="column side">
+                <h2>Side</h2>
+                <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
         </div>
+    </section>
+    <!--Create a div with 3 paragraphs inside, they should go to form 3 columns-->
+    <div class="columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
     </div>
+
     <!--card expemple-->
     <div class="card">
     <div class="card__image-x">
@@ -66,5 +75,7 @@
     </div>
     <!--this footer is visible on the bottom-->
     <footer>&copy; 2025 my page.</footer>
+    
+
 </body>
 </html>
