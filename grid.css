@@ -46,53 +46,28 @@ body {
 .grid-container {
     display: grid; 
     grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 80px 130px;
     background-color: rgb(252, 239, 126);
     padding: 20px;
-    grid-template-rows: 80px 130px;
     align-items: center;
 }
 
-.grid-container > div{
+.grid-container > div {
     background-color: beige;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
     border: 1px solid black;
+    height: 100%;
 }
 
-.item1 {
-    grid-column: 1 / 4;
-}
-
-.item4 {
-    grid-column: 1 / 4;
-}
-
-/* Created a calculator-like layout using CSS Grid 
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  max-width: 500px;
-  margin: auto;
-  padding: 10px;
-  background-color: #f0f0f0;
-}
-
-.grid-container > div {
-  background-color: white;
-  border: 1px solid #ccc;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 20px;
-  border-radius: 5px;
+.item1-4 {
+    grid-row: span 2; 
 }
 
 .item8-9 {
-  grid-column: span 2;
-}
-  */
+    grid-column: span 5 ;
+    }
 
 @media only screen and (max-width: 768px) {
     body {
@@ -113,6 +88,50 @@ body {
         grid-template-columns: auto;
     }
 }
+
+.container__calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eaeaea;
+}
+
+.calcolatrice {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: auto repeat(4, 80px);
+  gap: 10px;
+  padding: 20px;
+  background: #222;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.display {
+  grid-column: 1 / -1;
+  background: #000;
+  color: #0f0;
+  font-size: 2rem;
+  text-align: right;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.calc {
+  background: #444;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.calc:hover {
+  background: #666;
+}
+
 
 .full {
     width: 100%;
